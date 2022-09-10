@@ -5,7 +5,7 @@ import { HttpResponse, HttpStatusCode } from "@/data/protocols/http/http-respons
    url?: string
    body?: object
    response: HttpResponse = {
-     statusCode: HttpStatusCode.noContent
+     statusCode: HttpStatusCode.ok
    }
    async post(params:HttpPostParams): Promise<HttpResponse> {
     this.url = params.url
