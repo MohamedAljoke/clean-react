@@ -1,4 +1,4 @@
- {
+{
   "compilerOptions": {
     "target": "es6",
     "lib": [
@@ -19,6 +19,6 @@
     "allowJs": true,
     "resolveJsonModule": true
   },
-  "include": ["src", "tests"],
-  "exclude": ["tests/e2e/cypress"]
+  // "include": ["src", "tests"],
+  // "exclude": ["tests/e2e/cypress"]
 }
